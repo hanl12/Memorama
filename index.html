@@ -1,0 +1,33 @@
+<!-- JUEGO CREADO POR ESTUDIANTES DE LA UNIVERSIDAD DEL MAGDALENA. -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="css/sweetalert/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="css/sweetalert/dist/sweetalert2.min.css">
+    <title>Concéntrate</title>
+</head>
+<script>
+    function explain()
+    {
+        Swal.fire({
+            imageUrl: 'img/fondo.png',
+            imageAlt: 'Fondo',
+            text: "Es un juego de memoria que consiste en recordar las cartas que volteas para así formar pares."
+        })
+        //alert("Es un juego de memoria que consiste en recordar las cartas que volteas para así formar pares.");
+    }
+</script>
+<body>
+    <div align="center">
+        <img src="img/tittle.jpg" alt="Título">
+    </div>
+    <div align="center">
+        <a href="juego.html" class="boton">JUGAR</a><br><br><br>
+        <a class="boton" onclick="explain()">¿CÓMO JUGAR?</a>
+    </div>
+    
+</body>
+</html>

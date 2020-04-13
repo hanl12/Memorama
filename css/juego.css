@@ -1,0 +1,49 @@
+/* JUEGO CREADO POR ESTUDIANTES DE LA UNIVERSIDAD DEL MAGDALENA. */
+body
+{
+    background-color: #7E7E7E;
+}
+.titulo
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+#tablero_n
+{
+    background-color: white;
+    border: #ffffff;
+    width: 640px;
+    height: 640px;
+    padding: 24px;
+    margin: 0px auto;
+}
+
+#tablero_n > div
+{
+    background: url(../img/fondo.png) no-repeat;
+    width: 95px;
+    height: 95px;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    font-size: 1px;
+    cursor: pointer;
+    text-align: center;
+}
+.boton
+{
+	text-decoration: none;
+	font-family: Impact;
+	padding: 10px;	
+	font-weight: 500;
+	font-size: 30px;
+	color: #688A08;
+	border-radius: 6px;
+	border: 4px solid #ECF6CE;
+	background-color: white;
+}.boton:hover{
+	background-color: #d9fe56;
+	border: 4px solid #d9fe56;
+	text-decoration: none;
+}
